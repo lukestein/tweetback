@@ -9,7 +9,7 @@ Follow these steps to deploy the generated archive to [GitHub Pages](https://pag
 0. **Initialize git**: Run `git init` to initialize the folder as a Git repository
 0. **Add your GitHub repository**: Run `git remote add origin https://github.com/USERNAME/REPO.git`
 0. **Disable Jekyll**: Tell GitHub Pages not to use Jekyll (required for some setups per [this issue](https://github.com/tweetback/tweetback/issues/96)): `touch .nojekyll`
-0. *(Optional)* **Exclude Mac-specific files**: If you're on Mac, prevent `.DS_Store` from syncing: `echo ".DS_Store" >> .gitignore`
+0. *(Optional)* **Exclude unwanted files**: It may be useful to set up a `.gitignore` file to prevent unwanted files from being stored in the repository. For example, if you're on Mac, to prevent `.DS_Store` from syncing, you could run: `echo ".DS_Store" >> .gitignore`
 0. **Stage all files**: Stage all files in the `_site` folder for commit: `git add --all`
 0. **Commit the changes**: Run `git commit -am "Add Twitter archive"`
 0. **Push to GitHub**:
