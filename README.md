@@ -30,7 +30,7 @@ Take ownership of your Twitter data. First talked about at [Jamstack Conf 2019](
 
 * Clone/download this repository
 * In your terminal, `cd` to the folder of the project
-* Install [Node.js](https://nodejs.org/) (there are many ways to do this depending on your system and preferences, but if you are on a Mac and have [homebrew](https://brew.sh) installed, an easy installation method on is to run `brew install node`)
+* Install [Node.js](https://nodejs.org/) (there are many ways to do this depending on your system and preferences; most package managers provide a package for it)
 * Run `npm install`
 
 ### Populate the database from your Twitter Archive zip
